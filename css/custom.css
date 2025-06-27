@@ -6162,8 +6162,15 @@ header.main-header .header-sticky.active{
 		font-size: 20px;
 	}
 
-	.hero::before{
+	/* .hero::before{
 		background: linear-gradient(270deg, rgba(2, 13, 25, 0.3) 16.33%, rgba(2, 13, 25, 0.8) 100%), linear-gradient(360deg, rgba(2, 13, 25, 0) 87.52%, #020D19 101.14%);
+	} */
+
+	.hero::before{
+		background: linear-gradient(270deg, rgb(2 13 25 / 0%) 16.33%, rgb(2 13 25 / 0%) 100%), linear-gradient(360deg, rgba(2, 13, 25, 0) 87.52%, #020d1900 101.14%);
+	}
+	.video-overlay{
+		background: linear-gradient(to bottom, rgb(0 0 0) 0%, rgba(0, 0, 0, 0.3) 20%, transparent 30%, transparent 70%, rgba(0, 0, 0, 0.3) 80%, rgb(0 0 0 / 0%) 100%);
 	}
 
 	.hero-body{
