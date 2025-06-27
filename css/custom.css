@@ -6147,7 +6147,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.section-title h2{
-		font-size: 26px;
+		font-size: 22px;
 	}	
 
 	.video-play-button a{
@@ -7021,12 +7021,18 @@ header.main-header .header-sticky.active{
 	.for_desktop_logo {
         display: none;
     }
+	.desktopvideo {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 769px) {
     .for_mobile_logo {
         display: none;
     }
+	.mobilevideo{
+		display: none;
+	}
 }
 
 @media (max-width: 767px)
