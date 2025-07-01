@@ -7147,6 +7147,14 @@ header.main-header .header-sticky.active {
 	.hero-content {
 		padding: 10px 0 10px 0;
 	}
+	.slicknav_menu{
+		width: 75%;
+		right: 0;
+	}
+	.mobile-menu-open .slicknav_menu{
+		height: 100vh;
+    	min-height: 100vh;
+	}
 }
 
 /*HEALTH CARD*/

@@ -30,10 +30,19 @@
 	
 	/* Slick Menu JS */
 	$('#menu').slicknav({
-		label : '',
-		prependTo : '.responsive-menu'
+		label: '',
+		prependTo: '.responsive-menu',
+		afterOpen: function() {
+			if (window.innerWidth <= 768) { // Adjust breakpoint as per your design
+				$('body').addClass('mobile-menu-open');
+			}
+		},
+		afterClose: function() {
+			if (window.innerWidth <= 768) {
+				$('body').removeClass('mobile-menu-open');
+			}
+		}
 	});
-
 	if($("a[href='#top']").length){
 		$(document).on("click", "a[href='#top']", function() {
 			$("html, body").animate({ scrollTop: 0 }, "slow");
